@@ -37,7 +37,7 @@ function setup() {
 	}
 
 	for(var j=15;j<=width-10;j+50){
-		plinkos.push(new Plinkos(j,175));
+		plinkos.push(new Plinkos(j,175,10));
 	}
 
 	for(var j=40; j<=width;j+50){
@@ -45,7 +45,7 @@ function setup() {
 	}
 
 	for(var j=15;j<=width-10;j+50){
-		plinkos.push(new Plinkos(j,375));
+		plinkos.push(new Plinkos(j,375,10));
 	}
 
 
